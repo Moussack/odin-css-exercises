@@ -1,0 +1,17 @@
+.oddEl {
+   background: pink;
+   font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+.oddBigger {
+   font-size: 24px;
+}
+
+#blue {
+   color: blue;
+   font-size: 36px;
+}
+#green {
+   background: lightgreen;
+   font-size: 24px;
+   font-weight: bold;
+}
