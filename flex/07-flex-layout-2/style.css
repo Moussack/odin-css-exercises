@@ -40,6 +40,8 @@ body {
    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
    border-radius: 4px;
    flex: 1 1 300px;
+   /* You can give the default width of the card 300px or give the flex attribute to the card */
+   /* width: 300px; */
    padding: 32px;
 }
 
