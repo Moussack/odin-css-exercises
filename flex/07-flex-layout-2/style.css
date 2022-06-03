@@ -32,18 +32,21 @@ body {
    width: 300px;
    background: royalblue;
    flex-shrink: 0;
+   padding-left: 10px;
 }
 
 .card {
    border: 1px solid #eee;
    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
    border-radius: 4px;
-   flex: 1 1 0;
+   flex: 1 1 300px;
+   padding: 32px;
 }
 
 .card-c {
    display: flex;
-   /* padding: 30px; */
+   padding: 64px;
+   gap: 32px;
    flex-wrap: wrap;
 }
 
@@ -60,4 +63,5 @@ ul {
 
 .all {
    display: flex;
+   height: 100vh;
 }
