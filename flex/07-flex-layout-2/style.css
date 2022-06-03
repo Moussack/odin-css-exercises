@@ -38,12 +38,13 @@ body {
    border: 1px solid #eee;
    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
    border-radius: 4px;
-   flex: 1;
+   flex: 1 1 0;
 }
 
 .card-c {
    display: flex;
-   padding: 30px;
+   /* padding: 30px; */
+   flex-wrap: wrap;
 }
 
 a {
