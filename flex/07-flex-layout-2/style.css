@@ -68,4 +68,6 @@ li {
 .all {
    display: flex;
    height: 100vh;
+   /* THE CULPRIT : You can use flex:1 or height: 100vh in order sidebar to fill the available space to the footer, they would give the same result */
+   /*   flex: 1; */
 }
