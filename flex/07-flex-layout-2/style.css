@@ -61,6 +61,10 @@ ul {
    margin: 0;
 }
 
+li {
+   margin: 12px;
+}
+
 .all {
    display: flex;
    height: 100vh;
